@@ -1,4 +1,4 @@
-HW 1 - Key
+HW 1 - Key test
 ================
 SDS348 Spring 2021
 
@@ -218,7 +218,7 @@ dataset**
 ``` r
 # fine if using base R plot or ggplot2
 # fine if using variables in hours but not both
-boxplot(faithful$eruptions,
+boxplot(faithful$eruptions_h,
         main="Distribution of eruption duration", 
         ylab="Eruption duration (in minutes)")
 ```
@@ -232,7 +232,7 @@ between 2.0 and 4.5 minutes.
 ``` r
 # fine if using base R plot or ggplot2
 # fine if using variables in hours but not both
-boxplot(faithful$waiting,
+boxplot(faithful$waiting_h,
         main="Distribution of waiting time", 
         ylab="Waiting time (in minutes)")
 ```
